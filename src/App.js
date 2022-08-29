@@ -9,7 +9,7 @@ function App() {
     <p>John Maclean</p>
     <p>Professional Software Developement Student @codeclan</p>
     <p>UNDER HEAVY CONSTRUCTION</p>
-    <p>test</p>
+    <p></p>
     </div>
   );
 }
