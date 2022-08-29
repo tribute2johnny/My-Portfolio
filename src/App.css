@@ -1,7 +1,53 @@
 .App {
   text-align: center;
-  background-image: -o-linear-gradient(black, grey);
+  background-image: linear-gradient(black, grey);
   margin: 0;
   padding: 2em;
+  color: azure;
+  height: 100%;
+  flex-flow: wrap;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
+.main {
+  display: flex;
+  justify-content: space-between;
+  height: 98vh;
+}
+.my-name {
+  font-size: 80px;
+  font-family: sans-serif;
+  margin-top: 65%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 15%;
+}
+
+.centre {
+  display: flex;
+  align-items: center;
+  
+  
+  flex-direction: column;
+  
+}
+
+.footer {
+  padding: 10px;
+}
+
+.selfie {
+  border-radius: 50%;
+  height: 300px;
+  width: 350px;
+  
+ 
+ 
+}
