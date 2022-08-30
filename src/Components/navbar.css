@@ -18,6 +18,17 @@
 
 .link:hover {
     color: steelblue;
-    
+
 }
 
+@media screen and (max-width: 700px) {
+    .navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .button {float: left;}
+    .main {margin-left: 0;}
+  
+}
