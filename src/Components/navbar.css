@@ -1,0 +1,23 @@
+.button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: 20px;
+    padding: 15px 32px;
+}
+
+.link {
+    color: azure;
+    text-decoration: none;
+}
+
+
+
+.link:hover {
+    color: steelblue;
+    
+}
+
