@@ -21,6 +21,10 @@
 
 }
 
+.link:focus {
+    color: steelblue;
+}
+
 @media screen and (max-width: 700px) {
     .navbar {
         width: 100%;
