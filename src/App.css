@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: linear-gradient(black, grey);
+  background-image: linear-gradient( grey, black, black);
   margin: 0;
   padding: 2em;
   color: azure;
@@ -14,12 +14,12 @@
 .main {
   display: flex;
   justify-content: space-between;
-  height: 98vh;
+  height: 92vh;
 }
 .my-name {
   font-size: 80px;
   font-family: sans-serif;
-  margin-top: 65%;
+  margin: auto;
 }
 
 .navbar {
@@ -31,23 +31,12 @@
 }
 
 .centre {
-  display: flex;
-  align-items: center;
   
-  
-  flex-direction: column;
+  text-align: center;
+  margin: auto;
   
 }
 
 .footer {
-  padding: 10px;
-}
-
-.selfie {
-  border-radius: 50%;
-  height: 300px;
-  width: 350px;
-  
- 
- 
+  padding: 2px;
 }

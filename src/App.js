@@ -1,35 +1,37 @@
 import './App.css';
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import About from './Components/About';
+import Home from './Components/Home';
+import Projects from './Components/Projects';
+import Navbar from './Components/Navbar';
+import ErrorPage from './Components/ErrorPage';
+import Contact from './Components/Contact';
 
 
 function App() {
   return (
-    <div className="App">
-              
-      <div className='main'>
-        <div className='navbar'>
-          <p>home</p>
-          <p>about me</p>
-          <p>projects</p>
-          <p>contact</p>
-        </div>
+    <div className='App'>
+      <Router >
 
-        <div className='centre'>
-        
-          <h1 className='my-name'>John Maclean</h1>
-          
-          <h3>Professional Software Developement Student @codeclan</h3>
-          
+        <div className='main'>
+
+          <Navbar />
+
+          <Routes>
+            <Route path="/portfolio" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Projects" element={<Projects />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="*" element={<ErrorPage />} />
+          </Routes>
         </div>
-        <div>
-        
-        </div>
-      </div>
+      </Router>
       <footer className='footer'>
         info
       </footer>
-
     </div>
+
   );
 }
 
