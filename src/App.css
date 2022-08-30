@@ -15,6 +15,7 @@
   display: flex;
   justify-content: space-between;
   height: 92vh;
+  flex-wrap: wrap;
 }
 .my-name {
   font-size: 80px;
