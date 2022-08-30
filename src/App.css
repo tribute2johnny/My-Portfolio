@@ -6,16 +6,16 @@
   color: azure;
   height: 100%;
   flex-flow: wrap;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
+
 }
 
 .main {
   display: flex;
   justify-content: space-between;
-  height: 92vh;
-  flex-wrap: wrap;
+  min-height: 92vh;
+  flex-flow: wrap;
+  width: auto;
+  
 }
 .my-name {
   font-size: 80px;
