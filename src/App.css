@@ -21,6 +21,8 @@
   font-size: 80px;
   font-family: sans-serif;
   margin: auto;
+  background-clip: text;
+  
 }
 
 .navbar {
